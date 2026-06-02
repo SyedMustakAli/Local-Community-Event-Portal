@@ -1,4 +1,4 @@
-/* Reset Styles universal styles */
+/*  universal styles */
 *{
     margin: 0;
     padding: 0;
@@ -13,7 +13,7 @@ h1{
     text-transform: uppercase;
     letter-spacing: 2px;
 }
-/* Heading Styles */
+
 
 h2{
     color: navy;
@@ -27,22 +27,20 @@ h2{
     background-color:blue;
     color:white;
 }
-/*highlight style*/
+
 .highlight{
     background-color: antiquewhite;
     font-weight: bold;
     color:red;
     padding:5px;
 }
-/*gallery image style*/
-/* Event Gallery Table */
 
 table{
     border-collapse: collapse;
     margin: 20px auto;
 }
 
-/* Table Cells */
+
 
 td{
     border: 2px solid black;
@@ -51,13 +49,12 @@ td{
     vertical-align: middle;
 }
 
-/* Zebra Striping */
+
 
 tr:nth-child(even){
     background-color: rgb(43, 149, 215);
 }
 
-/* Gallery Images */
 
 .galleryImage{
     width: 200px;
@@ -95,13 +92,9 @@ td p{
 
 .eventCard{
     background-color: rgba(255,255,255,0.8);
-
     border: 2px solid gray;
-
     padding: 20px;
-
     margin: 20px;
-
     border-radius: 10px;
 }
 
@@ -169,28 +162,28 @@ footer p{
     font-weight: bold;
 }
 
-/* Normal Link */
+
 nav a:link{
     color: white;
 }
 
-/* Visited Link */
+
 nav a:visited{
     color: lightgray;
 }
 
-/* Mouse Hover */
+
 nav a:hover{
     color: yellow;
     text-decoration: underline;
 }
 
-/* While Clicking */
+
 nav a:active{
     color: red;
 }
 
-/* Navigation List */
+
 
 nav ul{
     list-style-type: none;
@@ -222,13 +215,12 @@ textarea:focus{
     outline: 3px solid #00C6FF;
 }
 
-/* Visibility Example */
+
 
 .hiddenText{
     visibility: hidden;
 }
 
-/* Display Example */
 
 .removedText{
     display: none;
