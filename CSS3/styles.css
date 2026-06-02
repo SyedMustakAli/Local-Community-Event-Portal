@@ -1,0 +1,235 @@
+/* Reset Styles universal styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Main Heading */
+
+h1{
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+/* Heading Styles */
+
+h2{
+    color: navy;
+    text-align: center;
+    margin: 15px 15px;
+    font-size: 28px;
+    font-style: italic;
+}
+/*header style*/
+#welcomeBanner{
+    background-color:blue;
+    color:white;
+}
+/*highlight style*/
+.highlight{
+    background-color: antiquewhite;
+    font-weight: bold;
+    color:red;
+    padding:5px;
+}
+/*gallery image style*/
+/* Event Gallery Table */
+
+table{
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+/* Table Cells */
+
+td{
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* Zebra Striping */
+
+tr:nth-child(even){
+    background-color: rgb(43, 149, 215);
+}
+
+/* Gallery Images */
+
+.galleryImage{
+    width: 200px;
+    height: 150px;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    display: block;
+    margin: auto;
+}
+
+/* Image Captions */
+
+td p{
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+/*Zoom image style*/
+#zoomImage{
+    width: 200px;
+    border: 3px solid black;
+    cursor: pointer;
+}
+
+#charCount{
+    color: green;
+    font-weight: bold;
+}
+/* Event Card */
+
+
+
+.eventCard{
+    background-color: rgba(255,255,255,0.8);
+
+    border: 2px solid gray;
+
+    padding: 20px;
+
+    margin: 20px;
+
+    border-radius: 10px;
+}
+
+/* Text Styles */
+
+h3, p{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Page Background */
+
+   body{
+    background-image: url("../HTML5/photos/background.jpg");
+    background-size: cover;
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* Section Headings */
+
+h2{
+    background: linear-gradient(to right, black, #00C6FF);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+/* Navigation Bar */
+
+nav{
+    background-color: #003366;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a{
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Paragraph Styling */
+
+p{
+    font-size: 16px;
+    line-height: 1.8;
+    text-align: justify;
+}
+/* Footer Styling */
+footer{
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    bottom: 0;
+}
+footer p{
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* Normal Link */
+nav a:link{
+    color: white;
+}
+
+/* Visited Link */
+nav a:visited{
+    color: lightgray;
+}
+
+/* Mouse Hover */
+nav a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+
+/* While Clicking */
+nav a:active{
+    color: red;
+}
+
+/* Navigation List */
+
+nav ul{
+    list-style-type: none;
+    list-style-position: inside;
+}
+
+nav li{
+    display: inline-block;
+    margin: 0 15px;
+    padding: 5px;
+}
+/* Event List */
+
+.eventList{
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+.eventList li{
+    margin: 10px;
+    padding: 5px;
+}
+
+/* Form Fields */
+
+input:focus,
+select:focus,
+textarea:focus{
+    outline: 3px solid #00C6FF;
+}
+
+/* Visibility Example */
+
+.hiddenText{
+    visibility: hidden;
+}
+
+/* Display Example */
+
+.removedText{
+    display: none;
+}

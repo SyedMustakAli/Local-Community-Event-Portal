@@ -4,54 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Local Community Event Portal</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/CSS3/styles.css">
     <style>
-        #welcomeBanner{
-        background-color:blue;
-        color:white;
+       body{
+        background-color:#f4f4f4;
     }
-    .highlight{
-        background-color: antiquewhite;
-        font-weight: bold;
-        color:red;
-        padding:5px;
-    }
-    .galleryImage{
-    width: 200px;
-    height: 130px;
-    border: 3px solid black;
-    border-radius: 10px;
-    padding: 5px;
-    margin: 10px;
-}
-table,tr,td{
-    border-collapse: collapse;
-    border: 2px solid black;
-    border-radius: 10px;
-    
-}
-#zoomImage{
-    width: 200px;
-    border: 3px solid black;
-    cursor: pointer;
-}
-
-#charCount{
-    color: green;
-    font-weight: bold;
-}
-
 
     </style>
    
 </head>
 <body>
     <header>
-        <nav>
-            <a href="#home">Home</a>
-            <a href="#events">Events</a>
-            <a href="#contact">Contact</a>
-            <a href="help.html" target="_blank"> Help</a>
-        </nav>
+       <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="help.html" target="_blank">Help</a></li>
+        </ul>
+    </nav>
     </header>
     <main>
         <div id="welcomeBanner">
@@ -66,7 +38,7 @@ table,tr,td{
             <p>Your one-stop destination for discovering and sharing local events in your community.</p>
             <p>This portal helps residents register for events and access community services.</p>
         </section>
-        <section id="events">
+        <section id="events"  class="eventCard">
             <h2>Community Events</h2>
             <p>Check upcoming events and register for your favorites!</p>
         </section>
@@ -169,8 +141,17 @@ table,tr,td{
 
             </form>
         </section>
+        <section class="eventCard">
+            <h2>Upcoming Events</h2>
 
-        <section id="feedback">
+            <ul class="eventList">
+                <li>Music Festival</li>
+                <li>Food Carnival</li>
+                <li>Sports Meetup</li>
+                <li>Art Exhibition</li>
+            </ul>
+        </section>
+        <section id="feedback"  class="eventCard">
 
             <h2>Event Feedback</h2>
             <label>Phone Number:</label>
@@ -258,9 +239,24 @@ table,tr,td{
             <p id="locationResult"></p>
 
         </section>
-        <section id="contact">
+        <section id="contact"  class="eventCard">
             <h2>Contact Us</h2>
             <p>Have questions or feedback? Reach out to us!</p>
+        </section>
+        <section class="eventCard">
+
+            <h2>Visibility Demo</h2>
+
+            <p>This paragraph is visible.</p>
+
+            <p class="hiddenText">
+                This uses visibility:hidden
+            </p>
+
+            <p class="removedText">
+                This uses display:none
+            </p>
+
         </section>
     </main>
     <footer>
